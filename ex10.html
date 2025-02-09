@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/ceo.com">
+        <label for="name">Họ tên :</label>
+        <input type="text" id="name" required><br><br>
+        <label for="date">Ngày sinh :</label>
+        <input type="date" id="date"><br><br>
+        <label for="gender"> Giới tính :
+            <input type="radio" name="gender" value="Man">Nam
+            <input type="radio" name="gender" value="women">Nữ
+            <br> <br>
+            <label for="phone">Số điện thoại :</label>
+            <input type="number" required> <br><br>
+            <label for="email" id="email">Email :</label>
+            <input type="email" required id="email"> <br><br>
+            <label for="tencongti">Tên công ty :</label>
+            <input type="text" id="tencongti"><br><br>
+            <label for="vaitro">Vai trò trong công ty :
+                <select name="vatro">
+                    <option value="gd">Giám đốc điều hành(CEO)</option>
+                    <option value="tv">Thành viên</option>
+                    <option value="tp">Trưởng phòng</option>
+                </select>
+                <br><br>
+            </label>
+            <label for="quymo">Quy mô công ty :
+                <select name="quymo">
+                    <option value="dnl">Doanh nghiệp lớn</option>
+                    <option value="dnn">Doanh nghiệp nhỏ</option>
+                    <option value="xn">Xí nghiệp</option>
+                </select>
+                <br><br>
+            </label>
+            <label for="nghanhnghe">Nghành nghề công ty :</label>
+            <input type="text" id="nghanhnghe" required><br><br>
+            <label for="lido">Lý do tham gia câu lạc bộ :</label>
+            <textarea name="lido" rows="2"></textarea>
+             <br><br>
+             <label for="kinhnghiem">Kinh nghiệm lãnh đạo :</label>
+             <textarea name="linhnghiem" rows="2"></textarea>
+              <br><br>
+              <label for="muctieu">Mục tiêu khi tham gia câu lạc bộ :</label>
+             <textarea name="muctieu" rows="2"></textarea>
+              <br><br>
+              <label for="chuongtrinh">Chương trình sự kiện mong muốn tham gia :</label>
+              <input type="checkbox" id="chuongtrinh" name="networking">Networking
+              <input type="checkbox" id="chuongtrinh" name="workshop">Workshop
+              <input type="checkbox" id="chuongtrinh" name="hoithao">Hội thảo
+              <br><br>
+              <label for="dangkibantin">Đăng kí nhận bản tin :
+                <input type="radio" name="dangkibantin" value="co">Có
+                <br><br>
+            </label>
+            <button type="submit">Đăng kí hội viên </button>
+    </form>
+</body>
+</html>
